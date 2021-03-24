@@ -5,6 +5,7 @@ public class Line_Comparison_Problem {
 	public static void main(String[] args) {
 
 		//Variables
+
 		int x1,x2,y1,y2,x3,y3;
 		int  line1,line2;
 
@@ -32,9 +33,10 @@ public class Line_Comparison_Problem {
 			System.out.println("Line 1 is greater than Line 2");
 		}else if(compare<0) {
 			System.out.println("Line 1 is less than Line 2");
-		}else {
-			System.out.println("Line 1 is equal to Line 2");
 		}
-
+		else
+		{
+			System.out.println("Line 1 is equal to Line 2");
+		}	
 	}
 }
