@@ -1,17 +1,16 @@
-package Line_Compare_Problem;
+package com.linecomparisionproblem;
 
-public class Line_Comparison_Problem {
-
+public class LineComparisionProblem {
 	public static void main(String[] args) {
 
 		//Variables
-		int x1,x2,y1,y2,x3,y3;
+		int x1 = 10;
+		int x2 = 20;
+		int y1 = 30;
+		int y2 = 40;
+		int x3 = 50;
+		int y3 = 60;
 		int line1,line2;
-
-		//initializing co-ordinates points
-		x1=2; y1=2;
-		x2=4;y2=4;
-		x3=5;y3=1;
 
 		line1=(int)Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 		System.out.println("Line one value = " +line1);
@@ -23,8 +22,17 @@ public class Line_Comparison_Problem {
 		String length1=String.valueOf(line1);
 		String length2=String.valueOf(line2);
 
-		//comparing to length if its  equal or Not
-		System.out.println(length1.equals(length2));
+		//comparing to length if its  equal or Not using .equals()
+		boolean b = (length1.equals(length2));
+
+		if(b == true)
+		{
+			System.out.println("line1 is greater");
+		}
+		else
+		{
+			System.out.println("line2 is greater");
+		}
 
 	}
 }
