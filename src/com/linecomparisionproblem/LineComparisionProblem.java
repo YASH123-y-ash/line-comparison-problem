@@ -1,6 +1,7 @@
-package Line_Compare_Problem;
+package com.linecomparisionproblem;
 
-public class Line_Comparison_Problem {
+
+public class LineComparisionProblem {
 
 	public static void main(String[] args) {
 
